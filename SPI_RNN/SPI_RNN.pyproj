@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>df8e63f2-935f-4c41-a3bd-140e25a21a15</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>SPI_RNN</Name>
+    <RootNamespace>SPI_RNN</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="image\" />
+    <Folder Include="image\CNNGI\" />
+    <Folder Include="image\CNN\" />
+    <Folder Include="image\CNN_without_patternlearning\" />
+    <Folder Include="image\DCAN\" />
+    <Folder Include="image\DRAN\" />
+    <Folder Include="image\org\" />
+    <Folder Include="image\org\128\" />
+    <Folder Include="image\org\32\" />
+    <Folder Include="image\org\64\" />
+    <Folder Include="image\RNNGI\" />
+    <Folder Include="image\RNN\" />
+    <Folder Include="image\RNN_without_patternlearning\" />
+    <Folder Include="param\" />
+    <Folder Include="stl-10\" />
+    <Folder Include="__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\CNNGI\CNNGI_128pix_cameraman.bmp" />
+    <Content Include="image\CNNGI\CNNGI_128pix_rect.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_cameraman.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_0.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_1.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_2.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_3.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_4.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_5.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_6.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_7.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_8.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_mnist_9.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_rect.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32pix_USAF1951.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32_cameraman.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32_crow.bmp" />
+    <Content Include="image\CNNGI\CNNGI_32_rect.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_cameraman.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_0.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_1.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_2.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_3.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_4.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_5.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_6.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_7.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_8.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_mnist_9.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_rect.bmp" />
+    <Content Include="image\CNNGI\CNNGI_64pix_USAF1951.bmp" />
+    <Content Include="image\CNN\128pix.txt" />
+    <Content Include="image\CNN\32pix.txt" />
+    <Content Include="image\CNN\64pix.txt" />
+    <Content Include="image\CNN\CNN_128pix.bmp" />
+    <Content Include="image\CNN\CNN_128pix_compressed.bmp" />
+    <Content Include="image\CNN\CNN_128pix_org.bmp" />
+    <Content Include="image\CNN\CNN_32pix.bmp" />
+    <Content Include="image\CNN\CNN_32pixcameraman.bmp" />
+    <Content Include="image\CNN\CNN_32pixrect.bmp" />
+    <Content Include="image\CNN\CNN_32pix_compressed.bmp" />
+    <Content Include="image\CNN\CNN_32pix_org.bmp" />
+    <Content Include="image\CNN\CNN_64pix.bmp" />
+    <Content Include="image\CNN\CNN_64pix_compressed.bmp" />
+    <Content Include="image\CNN\CNN_64pix_org.bmp" />
+    <Content Include="image\CNN_without_patternlearning\CNNGI_32.bmp" />
+    <Content Include="image\CNN_without_patternlearning\CNNGI_32_cameraman.bmp" />
+    <Content Include="image\CNN_without_patternlearning\CNNGI_32_crow.bmp" />
+    <Content Include="image\CNN_without_patternlearning\CNNGI_32_rect.bmp" />
+    <Content Include="image\DCAN\128pix.txt" />
+    <Content Include="image\DCAN\32pix.txt" />
+    <Content Include="image\DCAN\64pix.txt" />
+    <Content Include="image\DCAN\CNN_128pix.bmp" />
+    <Content Include="image\DCAN\CNN_128pix_compressed.bmp" />
+    <Content Include="image\DCAN\CNN_128pix_org.bmp" />
+    <Content Include="image\DCAN\CNN_32pix.bmp" />
+    <Content Include="image\DCAN\CNN_32pixcameraman.bmp" />
+    <Content Include="image\DCAN\CNN_32pixrect.bmp" />
+    <Content Include="image\DCAN\CNN_32pix_compressed.bmp" />
+    <Content Include="image\DCAN\CNN_32pix_org.bmp" />
+    <Content Include="image\DCAN\CNN_64pix.bmp" />
+    <Content Include="image\DCAN\CNN_64pix_compressed.bmp" />
+    <Content Include="image\DCAN\CNN_64pix_org.bmp" />
+    <Content Include="image\DCAN\DCAN_128pix_cameraman.bmp" />
+    <Content Include="image\DRAN\128pix.txt" />
+    <Content Include="image\DRAN\32pix.txt" />
+    <Content Include="image\DRAN\64pix.txt" />
+    <Content Include="image\DRAN\DRAN_128pix_cameraman.bmp" />
+    <Content Include="image\DRAN\DRAN_32pixcameraman_32.bmp" />
+    <Content Include="image\DRAN\DRAN_32pix_cameraman.bmp" />
+    <Content Include="image\DRAN\DRAN_32pix_rect.bmp" />
+    <Content Include="image\DRAN\DRAN_32pix_whale.bmp" />
+    <Content Include="image\DRAN\RNN_128pix.bmp" />
+    <Content Include="image\DRAN\RNN_128pix_org.bmp" />
+    <Content Include="image\DRAN\RNN_32pix.bmp" />
+    <Content Include="image\DRAN\RNN_32pixcameraman.bmp" />
+    <Content Include="image\DRAN\RNN_32pixrect.bmp" />
+    <Content Include="image\DRAN\RNN_32pix_org.bmp" />
+    <Content Include="image\DRAN\RNN_32pix_test.bmp" />
+    <Content Include="image\DRAN\RNN_64pix.bmp" />
+    <Content Include="image\DRAN\RNN_64pix_org.bmp" />
+    <Content Include="image\org\128\cameraman.bmp" />
+    <Content Include="image\org\128\rect.bmp" />
+    <Content Include="image\org\128\USAF1951.bmp" />
+    <Content Include="image\org\32\cameraman.bmp" />
+    <Content Include="image\org\32\mnist_0.bmp" />
+    <Content Include="image\org\32\mnist_1.bmp" />
+    <Content Include="image\org\32\mnist_2.bmp" />
+    <Content Include="image\org\32\mnist_3.bmp" />
+    <Content Include="image\org\32\mnist_4.bmp" />
+    <Content Include="image\org\32\mnist_5.bmp" />
+    <Content Include="image\org\32\mnist_6.bmp" />
+    <Content Include="image\org\32\mnist_7.bmp" />
+    <Content Include="image\org\32\mnist_8.bmp" />
+    <Content Include="image\org\32\mnist_9.bmp" />
+    <Content Include="image\org\32\rect.bmp" />
+    <Content Include="image\org\32\USAF1951.bmp" />
+    <Content Include="image\org\64\cameraman.bmp" />
+    <Content Include="image\org\64\mnist_0.bmp" />
+    <Content Include="image\org\64\mnist_1.bmp" />
+    <Content Include="image\org\64\mnist_2.bmp" />
+    <Content Include="image\org\64\mnist_3.bmp" />
+    <Content Include="image\org\64\mnist_4.bmp" />
+    <Content Include="image\org\64\mnist_5.bmp" />
+    <Content Include="image\org\64\mnist_6.bmp" />
+    <Content Include="image\org\64\mnist_7.bmp" />
+    <Content Include="image\org\64\mnist_8.bmp" />
+    <Content Include="image\org\64\mnist_9.bmp" />
+    <Content Include="image\org\64\rect.bmp" />
+    <Content Include="image\org\64\USAF1951.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_cameraman.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_cameraman_1000.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_cameraman_500.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_cameraman_tv.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_1000.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_300.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_333.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_500.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_666.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_666_666.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_rect_tv.bmp" />
+    <Content Include="image\RNNGI\RNNGI_128pix_USAF1951_333_333.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_cameraman.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_cameraman_333_200_learned.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_0.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_1.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_2.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_3.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_4.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_5.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_6.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_7.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_8.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_mnist_9.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_rect.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_rect_333_200_learned.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_rect_333_300.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_USAF1951.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_USAF1951_333_200.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32pix_USAF1951_333_200_learned.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32_cameraman.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32_crow.bmp" />
+    <Content Include="image\RNNGI\RNNGI_32_rect.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_cameraman.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_0.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_1.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_2.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_3.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_4.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_5.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_6.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_7.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_8.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_mnist_9.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_rect.bmp" />
+    <Content Include="image\RNNGI\RNNGI_64pix_USAF1951.bmp" />
+    <Content Include="image\RNN\128pix.txt" />
+    <Content Include="image\RNN\32pix.txt" />
+    <Content Include="image\RNN\64pix.txt" />
+    <Content Include="image\RNN\RNN_128pix.bmp" />
+    <Content Include="image\RNN\RNN_128pix_org.bmp" />
+    <Content Include="image\RNN\RNN_32pix.bmp" />
+    <Content Include="image\RNN\RNN_32pixcameraman.bmp" />
+    <Content Include="image\RNN\RNN_32pixrect.bmp" />
+    <Content Include="image\RNN\RNN_32pix_org.bmp" />
+    <Content Include="image\RNN\RNN_32pix_test.bmp" />
+    <Content Include="image\RNN\RNN_64pix.bmp" />
+    <Content Include="image\RNN\RNN_64pix_org.bmp" />
+    <Content Include="image\RNN_without_patternlearning\RNNGI_32.bmp" />
+    <Content Include="image\RNN_without_patternlearning\RNNGI_32_cameraman.bmp" />
+    <Content Include="image\RNN_without_patternlearning\RNNGI_32_crow.bmp" />
+    <Content Include="image\RNN_without_patternlearning\RNNGI_32_rect.bmp" />
+    <Content Include="param\DRAN_32_hidden100.h5" />
+    <Content Include="param\DRAN_32_hidden200.h5" />
+    <Content Include="param\DRAN_64_hidden100.h5" />
+    <Content Include="param\DRAN_64_hidden200.h5" />
+    <Content Include="param\DRAN_64_hidden300.h5" />
+    <Content Include="param\DRAN_binalize_32_hidden100.h5" />
+    <Content Include="param\DRAN_binalize_32_hidden200.h5" />
+    <Content Include="param\DRAN_binalize_64_hidden100.h5" />
+    <Content Include="param\DRAN_binalize_64_hidden200.h5" />
+    <Content Include="param\DRAN_binalize_64_hidden300.h5" />
+    <Content Include="param\RNNGI_32.h5" />
+    <Content Include="param\RNNGI_64.h5" />
+    <Content Include="stl-10\stl10_32pix.npy" />
+    <Content Include="stl-10\stl10_32pix_100000.npy" />
+    <Content Include="stl-10\stl10_test_32pix_5000.npy" />
+    <Content Include="__pycache__\eval_quality.cpython-35.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DCAN_RNN.py" />
+    <Compile Include="DCAN_RNN_predict.py" />
+    <Compile Include="DCAN_RNN_test.py" />
+    <Compile Include="eval_quality.py" />
+    <Compile Include="pattern_binalized_RNN.py" />
+    <Compile Include="RNNGI.py" />
+    <Compile Include="RNNGI_predict.py" />
+    <Compile Include="RNNGI_test.py" />
+  </ItemGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

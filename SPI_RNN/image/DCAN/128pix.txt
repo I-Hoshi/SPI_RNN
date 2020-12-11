@@ -1,0 +1,14 @@
+PSNR 18.38
+SSIM 0.89
+
+•½‹Ï’l
+PSNR 16.12
+SSIM 0.70
+
+compressed
+PSNR 15.65
+SSIM 0.81
+
+•½‹Ï’l
+PSNR 15.91
+SSIM 0.65
