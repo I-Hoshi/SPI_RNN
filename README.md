@@ -15,7 +15,7 @@ Overview
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/I-Hoshi/SPI_RNN/edit/master/LISENCE.txt)
 
 ## Reference
 [1]User Name, 'Paper Titile' Conference Name pp.xx 20XX
