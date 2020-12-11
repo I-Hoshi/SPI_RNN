@@ -1,6 +1,0 @@
-PSNR 19.14
-SSIM 0.89
-
-•½‹Ï’l@
-PSNR 20.02
-SSIM 0.85

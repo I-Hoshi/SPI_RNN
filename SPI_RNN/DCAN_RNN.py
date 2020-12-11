@@ -33,7 +33,7 @@ def binary_regularizer(weight_matrix):
 
 np.random.seed(0)
 
-image_size=64
+image_size=32
 t_length=333
 input_dim = 9#There's a little difference between 9 and 37
 
