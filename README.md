@@ -17,7 +17,7 @@ If they can't work, please modify them properly to work.
 
 
 ## Requirement
-Please cite the following reference in papers using these source codes
+Please cite the following reference in papers using these source codes:
 I. Hoshi, T. Shimobaba, T. Kakue, T. Ito, "Single-pixel imaging using a recurrent neural network combined with convolutional layers," Opt. Express 28 (23), 34069 (2020).
 
 The following environment is recommended.
